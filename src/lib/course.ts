@@ -1,4 +1,4 @@
-import type { ProgressionElement } from './progressionElement.ts';
+import type { ProgressionElement } from './progressionElements/progressionElement.ts';
 
 export interface Course {
 	id: string;

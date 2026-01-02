@@ -1,4 +1,4 @@
-import type { RichMedia } from "./richMedia.ts";
+import type { RichMedia } from '../media/richMedia.ts';
 
 export interface InputSlide {
 	type: 'input';

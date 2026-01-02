@@ -1,4 +1,4 @@
-import type { Slide } from './slide.ts';
+import type { Slide } from './slides/slide.ts';
 
 export interface Module {
 	id: string;
