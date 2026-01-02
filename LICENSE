@@ -1,0 +1,65 @@
+Lattice Public License v1.0 (LPL-1.0)
+
+Copyright (c) 2024-2025 Jeremiah Saunders. All Rights Reserved.
+
+Preamble
+
+The Lattice engine is a proprietary learning system developed solo by Jeremiah Saunders for the benefit of Lock In. Our mission is to empower students through high-integrity, focused learning environments. To preserve the unique integrity and methodology of the Lattice ecosystem, this license restricts institutional and commercial use. It is designed to allow individual hackers and students to explore the source code privately while ensuring that any organized educational or commercial deployment is managed exclusively by or through Lock In.
+
+1. Definitions
+
+"Software" refers to the Lattice Svelte library, source code, documentation, and associated assets.
+
+"Licensor" refers to Jeremiah Saunders, the creator and copyright holder of the Software.
+
+"Beneficiary Organizations" refers to Lock In and its fiscal sponsor, The Hack Foundation (a 501(c)(3) nonprofit organization).
+
+"Personal Use" refers to use by a single individual for private study, research, or hobbyist projects. This specifically excludes any use within a classroom, school, tutoring center, or organized group setting.
+
+"Institutional Use" refers to use by any school, university, government agency, or nonprofit organization (other than the Beneficiary Organizations).
+
+"Commercial Use" refers to any use of the Software by a for-profit entity, or use that facilitates revenue-generating activities, including but not limited to internal corporate training, SaaS platforms, or paid educational services.
+
+2. License Grants
+
+2.1 Personal Use Grant
+
+Subject to the terms of this license, the Licensor grants you a non-exclusive, royalty-free, worldwide license to use, copy, and modify the Software for Personal Use only. This grant does not include the right to deploy the software for others or use it in any educational or professional institution.
+
+2.2 Perpetual Grant to Beneficiary Organizations
+
+The Licensor hereby grants to the Beneficiary Organizations (Lock In and The Hack Foundation) a perpetual, irrevocable, royalty-free, worldwide, and unrestricted license to use, modify, distribute, sublicense, and commercially exploit the Software for any purpose in alignment with their respective missions.
+
+3. Usage Restrictions
+
+3.1 Prohibition on Institutional & Educational Use
+
+Institutional Use of the Software is strictly prohibited. You may not use this Software as part of a curriculum, school program, or nonprofit initiative unless such program is directly operated or authorized by Lock In.
+
+3.2 Prohibition on Commercial Use
+
+Commercial Use of the Software is strictly prohibited. Any use by a for-profit company or for the purpose of generating revenue requires a separate commercial license from the Licensor.
+
+4. Redistribution & Forking
+
+You may redistribute the Software or create forks, provided that:
+
+You include a copy of this License in any redistribution.
+
+You do not charge a fee for the Software itself.
+
+The redistributed version or fork remains subject to these same restrictions: it may only be used for Personal Use and cannot be used for Institutional or Commercial purposes.
+
+5. Anti-Circumvention
+
+You may not modify the Software to disable, bypass, or deceive the built-in integrity layers (such as "Cadence Tracking" or "Focus Guard") if the intent is to facilitate fraud or academic dishonesty.
+
+6. Termination
+
+This license and the rights granted hereunder will terminate automatically if you fail to comply with the terms herein.
+
+7. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
+
+For institutional or commercial licensing inquiries, please contact Jeremiah Saunders or Lock In.
