@@ -1,4 +1,12 @@
+import type { Component } from 'svelte';
+import TextMediaComponent from './components/TextMediaComponent.svelte';
+import ImageMediaComponent from './components/ImageMediaComponent.svelte';
+
 export type RichMedia = RichMediaElement[];
+
+export interface BaseMedia {
+	type: string;
+}
 
 export interface TextMedia {
 	type: 'text';
@@ -18,3 +26,10 @@ export interface VideoMedia {
 }
 
 export type RichMediaElement = TextMedia | ImageMedia | VideoMedia;
+
+// TODO: See if there is a better way to type this
+export const mediaComponentMap: Record<string, Component<any>> = {
+	text: TextMediaComponent,
+	image: ImageMediaComponent
+	// TODO: Implement video media component
+};
