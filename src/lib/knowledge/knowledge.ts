@@ -29,7 +29,6 @@ export interface PrimitiveKnowledgeAttribute extends BaseKnowledgeAttribute {
 export interface ReferenceKnowledgeAttribute extends BaseKnowledgeAttribute {
 	kind: 'reference';
 	relationDefinition: RelationDefinition;
-	reverse?: boolean; // If true, the relation is considered in reverse (i.e., thing2 -> thing1)
 }
 
 export type KnowledgeAttribute = PrimitiveKnowledgeAttribute | ReferenceKnowledgeAttribute;
@@ -43,6 +42,7 @@ export interface ReferenceAttributeValue {
 	kind: 'reference';
 	targetItem: KnowledgeItem;
 	relation: Relation;
+	reverse?: boolean; // If true, the relation is considered in reverse (i.e., thing2 -> thing1)
 }
 
 export type KnowledgeAttributeValue = PrimitiveAttributeValue | ReferenceAttributeValue;
