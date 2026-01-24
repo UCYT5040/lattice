@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { ProcessedImageMedia } from '../../server/media/processMedia.ts';
+	import type { ProcessedImageMedia } from '$lib/server/media/processMedia';
 
     let { media }: { media: ProcessedImageMedia } = $props();
 </script>

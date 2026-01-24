@@ -1,4 +1,4 @@
-import type { RichMedia } from '../media/richMedia.ts';
+import type { RichMedia } from '$lib/media/richMedia';
 
 export interface RichSlide {
 	type: 'rich';

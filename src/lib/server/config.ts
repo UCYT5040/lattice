@@ -1,5 +1,5 @@
-import type { DatabaseProvider } from '../databaseProvider.ts';
-import type { StorageProvider } from '../storageProvider.ts';
+import type { DatabaseProvider } from '$lib/databaseProvider';
+import type { StorageProvider } from '$lib/storageProvider';
 
 export interface LatticeConfig {
 	storageProvider: StorageProvider;

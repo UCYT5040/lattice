@@ -1,6 +1,6 @@
 <script lang="ts">
-    import type { ProcessedRichMedia } from '../../server/media/processMedia.ts';
-	import { mediaComponentMap } from '../richMedia.ts';
+    import type { ProcessedRichMedia } from '$lib/server/media/processMedia';
+	import { mediaComponentMap } from '$lib/media/richMedia';
 
     let { media }: { media: ProcessedRichMedia } = $props();
 </script>

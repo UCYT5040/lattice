@@ -1,7 +1,7 @@
 <script lang="ts">
     import { marked } from 'marked';
     import DOMPurify from 'dompurify';
-	import type { TextMedia } from '../richMedia.ts';
+	import type { TextMedia } from '$lib/media/richMedia';
 
     let { media }: { media: TextMedia } = $props();
 

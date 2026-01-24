@@ -1,4 +1,4 @@
-import type { InputSlide } from './inputSlide.ts';
-import type { RichSlide } from './richSlide.ts';
+import type { InputSlide } from '$lib/slides/inputSlide';
+import type { RichSlide } from '$lib/slides/richSlide';
 
 export type Slide = RichSlide | InputSlide;

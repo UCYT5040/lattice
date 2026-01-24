@@ -1,4 +1,4 @@
-import { getConfig } from '../../config.ts';
+import { getConfig } from '$lib/server/config';
 import {
 	type ImageMedia,
 	type RichMedia,

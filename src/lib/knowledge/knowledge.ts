@@ -1,4 +1,4 @@
-import type { Relation, RelationDefinition } from './relation.ts';
+import type { Relation, RelationDefinition } from '$lib/knowledge/relation';
 
 export interface KnowledgeItem {
 	id: string;

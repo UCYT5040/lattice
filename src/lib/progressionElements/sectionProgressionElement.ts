@@ -1,4 +1,4 @@
-import type { ProgressionElement, SplitProgressionElement } from './progressionElement.ts';
+import type { ProgressionElement, SplitProgressionElement } from '$lib/progressionElements/progressionElement';
 
 // Represents a group of other progression elements
 export interface SectionProgressionElement extends Omit<SplitProgressionElement, 'type'> {
