@@ -4,6 +4,8 @@ export interface KnowledgeItem {
 	id: string;
 	type: KnowledgeType;
 	attributes: Record<string, KnowledgeAttributeValue[]>;
+	title: string;
+	description: string;
 	// TODO: Sometimes primitive attributes may need conversion to reference attributes. Add support for that.
 }
 
