@@ -2,6 +2,9 @@ import type { Relation, RelationDefinition } from '$lib/knowledge/relation';
 
 export interface KnowledgeItem {
 	id: string;
+	ownerType: 'user' | 'organization' | 'system';
+	ownerId: string | null; // NULL for system-owned items
+	published: boolean; // Once published, an item can be edited wiki-style by others
 	type: KnowledgeType;
 	attributes: Record<string, KnowledgeAttributeValue[]>;
 	title: string;
@@ -9,9 +12,31 @@ export interface KnowledgeItem {
 	// TODO: Sometimes primitive attributes may need conversion to reference attributes. Add support for that.
 }
 
+export interface KnowledgeItemEdit {
+	id: string;
+	editorType: 'user' | 'organization';
+	editorId: string;
+	published: boolean;
+	datePublished: Date; // Used for versioning
+	// Edits
+	typeId?: string;
+	title?: string;
+	description?: string;
+	attributeEdits: Record<
+		string,
+		{
+			additions?: KnowledgeAttributeValue[];
+			removals?: KnowledgeAttributeValue[];
+		}
+	>;
+}
+
 export interface KnowledgeType {
 	id: string;
 	name: string;
+	ownerType: 'user' | 'organization' | 'system';
+	ownerId: string | null; // NULL for system-owned types
+	published: boolean;
 	relatedAttributes: KnowledgeAttribute[];
 }
 
