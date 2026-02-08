@@ -1,5 +1,5 @@
-import type { RichMedia } from '$lib/media/richMedia.ts';
-import { processRichMedia } from '$lib/server/media/processMedia.ts';
+import type { RichMedia } from '$lib/media/richMedia';
+import { processRichMedia } from '$lib/server/media/processMedia';
 import type { PageServerLoad } from './$types.js';
 
 export const load: PageServerLoad = async () => {
