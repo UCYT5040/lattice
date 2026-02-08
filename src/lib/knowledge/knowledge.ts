@@ -42,9 +42,10 @@ export interface KnowledgeType {
 
 // No two books have the same ISBN-13, so it can be a primitive attribute, whereas birthplace is better as a reference attribute (many people can be born in the same place)
 
-interface BaseKnowledgeAttribute {
+export interface BaseKnowledgeAttribute {
 	id: string;
 	name: string; // For example, 'title', 'publication date', etc.
+	kind: string;
 }
 
 export interface PrimitiveKnowledgeAttribute extends BaseKnowledgeAttribute {
